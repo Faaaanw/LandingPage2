@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- remixicon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">CarterWear </a>
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#new" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>New</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#collection" class="nav__link">
+                <i class="ri-compass-3-line"></i>
+                <span>Collection</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#products" class="nav__link">
+                <i class="ri-t-shirt-2-line"></i>
+                <span>Products</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- change theme -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              High Quality <br />
+              Printing
+            </h1>
+            <p class="home__description">
+              Make your own design or ask an artist from <br />
+              CArterWear
+            </p>
+            <a href="#new" class="button__link">
+              Create <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="home__images">
+            <img src="img/Home-fix-1.jpeg" alt="home image" />
+            <img src="img/Home-fix-2.png" alt="home image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="new section" id="new">
+        <h2 class="section__title">Categories</h2>
+        <div class="new__container container grid">
+          <article class="new__card">
+            <img src="img/Tshirt.jpg" alt="new image" class="new__img" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">T-Shirt Customize</h2>
+                <span class="new__subtitle">  </span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="new__card">
+            <img src="img/kemeja.jpeg" alt="new image" class="new__img" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Shirt customize</h2>
+                <span class="new__subtitle">  </span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+
+          <article class="new__card">
+            <img src="img/varsity.png" alt="new image" class="new__img" />
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Hoodie and Varcity</h2>
+                <span class="new__subtitle"> </span>
+              </div>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="collection section" id="collection">
+        <div class="collection__container container">
+          <div class="collection__explore">
+            <div class="collection__data-men">
+              <h2 class="collection__title">
+                Men <br />
+                Collection
+              </h2>
+              <a href="" class="button__link">
+                Look Design <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+            <img src="img/Sablon-men.jpeg" alt="collection image" />
+          </div>
+
+          <div class="collection__explore">
+            <img src="img/sablon-women.jpeg" alt="collection image" />
+            <div class="collection__data-women">
+              <h2 class="collection__title">
+                Women <br />
+                Collection
+              </h2>
+              <a href="" class="button__link">
+                Look Design <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products section" id="products">
+        <h2 class="section__title">Look Design From Our Artist</h2>
+        <div class="products__container container swiper">
+          <div class="swiper-wrapper">
+            <article class="products__card swiper-slide">
+              <img
+                src="img/koleksi1.jpeg"
+                alt="product image"
+                class="products__img"
+              />
+              <h2 class="products__title">Kanagawa Wave</h2>
+              <span class="products__price"> IDR 159.999 </span>
+            </article>
+
+            <article class="products__card swiper-slide">
+              <img
+                src="img/koleksi2.jpeg"
+                alt="product image"
+                class="products__img"
+              />
+              <h2 class="products__title">The Ace Shirt</h2>
+              <span class="products__price"> IDR 194.999 </span>
+            </article>
+
+            <article class="products__card swiper-slide">
+              <img
+                src="img/koleksi3-removebg-preview.png"
+                alt="product image"
+                class="products__img"
+              />
+              <h2 class="products__title">Flower Contrast Varcity</h2>
+              <span class="products__price"> IDR 349.999 </span>
+            </article>
+
+            <article class="products__card swiper-slide">
+              <img
+                src="img/koleksi4.jpeg"
+                alt="product image"
+                class="products__img"
+              />
+              <h2 class="products__title">Bershka Faded</h2>
+              <span class="products__price"> IDR 249.999 </span>
+            </article>
+          </div>
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-line"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-line"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="brand section">
+        <h2 class="section__title">Brands we sell</h2>
+
+        <div class="brand__container container grid">
+          <img src="img/logo1.png" alt="logo image" class="brand__img" />
+          <img src="img/logo2.png" alt="logo image" class="brand__img" />
+          <img src="img/logo3.png" alt="logo image" class="brand__img" />
+          <img src="img/logo4.png" alt="logo image" class="brand__img" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo"> Shop. </a>
+          <p class="footer__description">
+            Committed to bringing you the <br />
+            best clothing from popular <br />
+            brands.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">Company</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Shop</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Category</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Contact info</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Blog</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Events</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Popular news</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Recent news</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Office</h3>
+
+            <p class="footer__information">
+              Monday - Friday <br />
+              9AM - 8PM
+            </p>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Contact us</h3>
+
+            <ul class="footer__social">
+              
+              <a href="" target="_blank" class="footer__social-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              
+              <a
+                href="https://www.instagram.com/octvw_fn?igsh=OGh2eW1wZDBwZ2Zt"
+                target="_blank"
+                class="footer__social-link" >
+                <i class="ri-instagram-line"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__info container">
+        <span class="footer__copy"> &#169;CArter. All rights reserved </span>
+        <a href="" class="footer__privacy"> Terms & Conditions </a>
+      </div>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src="scrollreveal.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
