@@ -642,6 +642,7 @@ body.dark-theme{
     .nav__list{
         display: flex;
         column-gap: 3rem;
+        
     }
     .nav__link{
         color: var(--text-color);
